@@ -32,19 +32,19 @@ devtools::install_github("stat545ubc-2023/counteR")
 #> utf8      (1.2.3 -> 1.2.4) [CRAN]
 #> fansi     (1.0.4 -> 1.0.5) [CRAN]
 #> Installing 6 packages: rlang, lifecycle, withr, vctrs, utf8, fansi
-#> Installing packages into '/private/var/folders/dy/5gjrhf8j29j9pz5tk6gwp3rr0000gn/T/RtmpDYEODN/temp_libpath77da2871f189'
+#> Installing packages into '/private/var/folders/dy/5gjrhf8j29j9pz5tk6gwp3rr0000gn/T/RtmpWJnK69/temp_libpath7cf25ee78fae'
 #> (as 'lib' is unspecified)
 #> 
 #> The downloaded binary packages are in
-#>  /var/folders/dy/5gjrhf8j29j9pz5tk6gwp3rr0000gn/T//RtmptXsI66/downloaded_packages
+#>  /var/folders/dy/5gjrhf8j29j9pz5tk6gwp3rr0000gn/T//RtmpKBCOL0/downloaded_packages
 #> ── R CMD build ─────────────────────────────────────────────────────────────────
-#> * checking for file ‘/private/var/folders/dy/5gjrhf8j29j9pz5tk6gwp3rr0000gn/T/RtmptXsI66/remotes7be1531eb3e3/stat545ubc-2023-counteR-28c1c84/DESCRIPTION’ ... OK
+#> * checking for file ‘/private/var/folders/dy/5gjrhf8j29j9pz5tk6gwp3rr0000gn/T/RtmpKBCOL0/remotes7d7f60f2b680/stat545ubc-2023-counteR-e618f16/DESCRIPTION’ ... OK
 #> * preparing ‘counteR’:
 #> * checking DESCRIPTION meta-information ... OK
 #> * checking for LF line-endings in source and make files and shell scripts
 #> * checking for empty or unneeded directories
 #> * building ‘counteR_0.1.0.tar.gz’
-#> Installing package into '/private/var/folders/dy/5gjrhf8j29j9pz5tk6gwp3rr0000gn/T/RtmpDYEODN/temp_libpath77da2871f189'
+#> Installing package into '/private/var/folders/dy/5gjrhf8j29j9pz5tk6gwp3rr0000gn/T/RtmpWJnK69/temp_libpath7cf25ee78fae'
 #> (as 'lib' is unspecified)
 ```
 
@@ -70,6 +70,7 @@ tables’ first few lines):
 
 ``` r
 library(counteR)
+# install.packages("datateachr")
 library(datateachr) # for using the datasets
 
 ## basic example code

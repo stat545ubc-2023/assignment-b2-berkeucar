@@ -46,6 +46,7 @@ This is how you can count the missing values on each of the columns despite the 
 
 ```{r example}
 library(counteR)
+# install.packages("datateachr")
 library(datateachr) # for using the datasets
 
 ## basic example code
