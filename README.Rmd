@@ -1,0 +1,48 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# counteR
+
+<!-- badges: start -->
+![Dev release](https://github.com/stat545ubc-2023/counteR)
+<!-- badges: end -->
+
+The goal of counteR is to ...
+
+## Installation
+
+You can install the development version of counteR from [GitHub](https://github.com/) with using the following lines on your R terminal or files:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("stat545ubc-2023/counteR")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(counteR)
+## basic example code
+```
+
+What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+
+```{r cars}
+summary(cars)
+```
+
+
