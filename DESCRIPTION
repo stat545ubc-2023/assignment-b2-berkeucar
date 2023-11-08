@@ -1,10 +1,10 @@
 Package: counteR
-Title: What the Package Does (One Line, Title Case)
+Title: Count missing values according to the grouping
 Version: 0.1.0
 Authors@R: 
     person("Berke", "Uçar", , "bucar@bcgsc.ca", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-9525-1085"))
-Description: What the package does (one paragraph).
+Description: Group the given data table and count the missing (NA) values on the columns that are not group for each of the grouping results, according to the given group column(s)
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
