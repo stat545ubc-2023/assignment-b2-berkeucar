@@ -23,29 +23,10 @@ terminal or files:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("stat545ubc-2023/counteR")
-#> Downloading GitHub repo stat545ubc-2023/counteR@HEAD
-#> rlang     (1.1.1 -> 1.1.2) [CRAN]
-#> lifecycle (1.0.3 -> 1.0.4) [CRAN]
-#> withr     (2.5.0 -> 2.5.2) [CRAN]
-#> vctrs     (0.6.3 -> 0.6.4) [CRAN]
-#> utf8      (1.2.3 -> 1.2.4) [CRAN]
-#> fansi     (1.0.4 -> 1.0.5) [CRAN]
-#> Installing 6 packages: rlang, lifecycle, withr, vctrs, utf8, fansi
-#> Installing packages into '/private/var/folders/dy/5gjrhf8j29j9pz5tk6gwp3rr0000gn/T/RtmpWJnK69/temp_libpath7cf25ee78fae'
-#> (as 'lib' is unspecified)
-#> 
-#> The downloaded binary packages are in
-#>  /var/folders/dy/5gjrhf8j29j9pz5tk6gwp3rr0000gn/T//RtmpKBCOL0/downloaded_packages
-#> ── R CMD build ─────────────────────────────────────────────────────────────────
-#> * checking for file ‘/private/var/folders/dy/5gjrhf8j29j9pz5tk6gwp3rr0000gn/T/RtmpKBCOL0/remotes7d7f60f2b680/stat545ubc-2023-counteR-e618f16/DESCRIPTION’ ... OK
-#> * preparing ‘counteR’:
-#> * checking DESCRIPTION meta-information ... OK
-#> * checking for LF line-endings in source and make files and shell scripts
-#> * checking for empty or unneeded directories
-#> * building ‘counteR_0.1.0.tar.gz’
-#> Installing package into '/private/var/folders/dy/5gjrhf8j29j9pz5tk6gwp3rr0000gn/T/RtmpWJnK69/temp_libpath7cf25ee78fae'
-#> (as 'lib' is unspecified)
+devtools::install_github("stat545ubc-2023/counteR", ref="0.1.0")
+#> Downloading GitHub repo stat545ubc-2023/counteR@0.1.0
+#> Error in utils::download.file(url, path, method = method, quiet = quiet,  : 
+#>   cannot open URL 'https://api.github.com/repos/stat545ubc-2023/counteR/tarball/0.1.0'
 ```
 
 ## Syntax and Parameters:

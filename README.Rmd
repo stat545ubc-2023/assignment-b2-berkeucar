@@ -26,7 +26,7 @@ You can install the development version of counteR from [GitHub](https://github.
 
 ``` {r}
 # install.packages("devtools")
-devtools::install_github("stat545ubc-2023/counteR")
+devtools::install_github("stat545ubc-2023/counteR", ref="0.1.0")
 ```
 
 ## Syntax and Parameters:
